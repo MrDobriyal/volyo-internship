@@ -1,0 +1,8 @@
+GET http://localhost:3000/users/log_in
+Content-Type: application/json
+
+{
+    "userName":"gaurav",
+    "password":"this is my password"
+}
+
