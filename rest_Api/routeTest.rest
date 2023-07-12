@@ -1,0 +1,24 @@
+POST http://localhost:3000/hello
+Content-Type: application/json
+
+{
+    "subscribedToChannel":"karan jha",
+    "name":"rahul bhisht"
+}
+###
+
+GET http://localhost:3000/hello
+
+###
+GET http://localhost:3000/hello/64ad28de0305ce08fd43d293
+
+###
+PATCH http://localhost:3000/hello/64ad2c1003c568f9955f60ea
+Content-Type: application/json
+
+{
+"name":"ajay gadiya"    
+}
+
+###
+DELETE http://localhost:3000/hello/4ad27814e0f29056f68d140b
